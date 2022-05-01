@@ -1,0 +1,102 @@
+.second-div{
+    background-image: url("a.jpg");
+    background-size: cover;
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.adhiya{
+    color: floralwhite;
+}
+
+li{
+    color: darkolivegreen;
+}
+
+.main-div{
+    height: 100%;
+    width: 100%;
+}
+
+.main-about-us{
+    padding: 30px;
+}
+
+.why-us{
+    color: green;
+}
+
+.label{
+    font-weight: bold;
+    color: black;
+}
+
+.text{
+    margin: 6px;
+}
+
+.navlink-button, .navlink-button-two {
+    background-color: #10A20C;
+    text-decoration: none;
+    height: 70px;
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 8px;
+    font-size: larger;
+    border:black 2px solid;
+    cursor: pointer;   
+}
+
+.contact{
+   color: darkgreen;
+}
+
+.nav-bar-div{
+    background-color: #0B2021;
+    opacity: 0.8;
+}
+
+p{
+    color: black;
+
+}
+
+.mainDivContact{
+    font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1150px;
+
+    font-weight: bold;
+    
+}
+
+.nav-bar-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.contact-div{
+    background-image: url("../images/j.jpeg");
+}
+
+h1{
+    color: black;
+}

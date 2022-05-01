@@ -1,0 +1,88 @@
+.form{
+    background-color: #008CCB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    height: 100%;
+    width: 100vw;
+}
+.form-main h1{
+    text-align: center;
+    color: #FF8E00;
+
+}
+.form-main label{
+    color: white;
+}
+.form-main{
+    background-color:#006897;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.image{
+    height: 150px;
+    width: 200px;
+}
+
+.main-div{
+    height: 100vh;
+    width: 98.5vw;
+}
+
+.logo::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .logo{
+      margin: 8px;
+  }
+  
+  .logo::before {
+    border: 0.07em solid #999;
+    border-radius: 3px;
+    color: gray;
+    content: "+ Add the logo";
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    height: 7em;
+    padding-left: 0.75em;
+    padding-top: 2.5em;
+    white-space: nowrap;
+    width: 12em;
+  }
+  
+  .logo::after {
+    border: 0.07em solid #999;
+    border-radius: 3px;
+    color: gray;
+    content: "+ Add the logo";
+    cursor: pointer;
+    display: none;
+    font-size: 1em;
+    padding-left: 0.75em;
+    padding-top: 2.5em;
+    visibility: hidden;
+    white-space: nowrap;
+  }
+  
+  /* input[type="file"] {
+    color: transparent;
+  }
+  
+  input[type="text"] ,  input[type="number"], textarea {
+      color: transparent;
+      
+      opacity: 0.2;
+  } */
+
+  .button {
+      background-color: #FF8E00;
+      border: none;
+      height: 40px;
+      width: 80px;
+      border-radius: 5px;
+      font-weight: bold;
+      color: floralwhite;
+  }
